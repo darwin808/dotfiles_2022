@@ -32,6 +32,11 @@ sudo make install
  yarn
 
  powerlevel10k
+
+ rofi
+
+ kitty-cat
+
 ```
 
 # Fonts
@@ -44,3 +49,7 @@ Fira Code
 Font awesome fonts
 
 ```
+
+# Notes
+
+### disable hardware acceleration on browsers and vscode
