@@ -1,3 +1,6 @@
+
+# for keyboard
 xset r rate 390 40
 
+# dwm status bar
 slstatus &
