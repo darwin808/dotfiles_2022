@@ -14,7 +14,7 @@ sxhkd &
 
 feh --bg-fill "$(find ~/Pictures/anime/* | shuf | head -n 1)"
 
-xrandr --output DP-1 --mode 1920x1080 --rate 164.92
+# xrandr --output DP-1 --mode 1920x1080 --rate 164.92
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
