@@ -13,6 +13,8 @@ shell:      zsh
 
 ### Compiling Dwm configs
 
+test
+
 ```
 rm config.h && make
 sudo make install
