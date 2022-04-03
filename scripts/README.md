@@ -27,7 +27,7 @@ git clone https://aur.archlinux.org/libxft-bgra-git.git && cd libxft-bgra-git &&
 ## core dependencies
 
 ```
-sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xorg-server xorg-xinit
+sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xorg-server xorg-xinit sxkhd
 ```
 
 # Enable user to choose between xfce and dwm in login
@@ -47,5 +47,11 @@ cd && cd .config/suckless/st && rm config.h && make && sudo make install
 ```
 cd && cd .config/suckless/slstatus && rm config.h && make && sudo make install
 ```
+
+# Copy /fonts to /usr/shares/fonts
+
+# NOTE
+
+## make sure kitty , sxkhd is installed
 
 ### Reboot or mod + shift + r
