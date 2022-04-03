@@ -10,17 +10,19 @@ sudo pacman -S archlinux-keyring
 
 sudo pacman -Syyu
 
-<!-- install yay -->
+## Install yay
 
 ```
 git clone https://aur.archlinux.org/yay.git && yay && makepkg -si
 ```
 
-<!-- Enable emoji  -->
+## Enable Emoji
 
 ```
 git clone https://aur.archlinux.org/libxft-bgra-git.git && cd libxft-bgra-git && makepkg -si
 ```
+
+## core dependencies
 
 ```
 sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xorg-server xorg-xinit
