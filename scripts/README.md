@@ -26,10 +26,14 @@ git clone https://aur.archlinux.org/libxft-bgra-git.git && cd libxft-bgra-git &&
 
 ## core dependencies
 
-<-- remove libxft -->
+<--- remove libxft --->
 
 ```
 sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 xorg-server xorg-xinit sxkhd
+```
+
+```
+yay -S clip lxappearance flameshot openvpn brave-bin
 ```
 
 # Enable user to choose between xfce and dwm in login

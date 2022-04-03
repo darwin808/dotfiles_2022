@@ -4551,6 +4551,7 @@
 // - ipynb.openIpynbInNotebookEditor
 // - javascript.goToProjectConfig
 // - javascript.reloadProjects
+// - js.projectStatus.command
 // - jsBrowserBreakpoints.focus
 // - jsBrowserBreakpoints.resetViewLocation
 // - jsExcludedCallers.focus
@@ -5315,6 +5316,7 @@
 // - workbench.scm.action.setSortKey.path
 // - workbench.scm.action.setSortKey.status
 // - workbench.scm.action.setTreeViewMode
+// - workbench.scm.action.toggleRepositoryVisibility.scm0
 // - workbench.scm.focus
 // - workbench.scm.removeView
 // - workbench.scm.repositories.focus
@@ -5360,7 +5362,9 @@
 // - workbench.views.extensions.installed.focus
 // - workbench.views.extensions.installed.resetViewLocation
 // - workbench.views.extensions.marketplace.focus
+// - workbench.views.extensions.marketplace.removeView
 // - workbench.views.extensions.marketplace.resetViewLocation
+// - workbench.views.extensions.marketplace.toggleVisibility
 // - workbench.views.extensions.otherRecommendations.focus
 // - workbench.views.extensions.otherRecommendations.resetViewLocation
 // - workbench.views.extensions.popular.focus
