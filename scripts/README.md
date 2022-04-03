@@ -26,8 +26,10 @@ git clone https://aur.archlinux.org/libxft-bgra-git.git && cd libxft-bgra-git &&
 
 ## core dependencies
 
+<-- remove libxft -->
+
 ```
-sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xorg-server xorg-xinit sxkhd
+sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 xorg-server xorg-xinit sxkhd
 ```
 
 # Enable user to choose between xfce and dwm in login
