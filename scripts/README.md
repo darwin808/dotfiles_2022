@@ -30,7 +30,9 @@ git clone https://aur.archlinux.org/libxft-bgra-git.git && cd libxft-bgra-git &&
 sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xorg-server xorg-xinit
 ```
 
-# Copy xsessions to /usr/share/xsessions
+# Enable user to choose between xfce and dwm in login
+
+#### Copy xsessions to /usr/share/xsessions
 
 # Compile dwm st slstatus
 
