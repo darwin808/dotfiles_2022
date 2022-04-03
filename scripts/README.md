@@ -1,7 +1,5 @@
 # Installation of dependencies
 
-#### follow top to bottom
-
 ## system update first after fresh install
 
 ```
@@ -33,31 +31,56 @@ sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 xorg-serv
 ```
 
 ```
-yay -S clip lxappearance flameshot openvpn brave-bin
+yay -S xclip lxappearance flameshot openvpn brave-bin
 ```
 
 # Enable user to choose between xfce and dwm in login
 
-#### Copy xsessions to /usr/share/xsessions
+```
+sudo cd && cp ~/dotfiles_2022/xsessions/* /usr/share/xsessions
+```
 
 # Compile dwm st slstatus
 
 ```
 cd && cd .config/suckless/dwm && rm config.h && make && sudo make install
-```
 
-```
 cd && cd .config/suckless/st && rm config.h && make && sudo make install
-```
 
-```
 cd && cd .config/suckless/slstatus && rm config.h && make && sudo make install
+
 ```
 
 # Copy /fonts to /usr/shares/fonts
+
+```
+
+sudo cd && cp ~/dotfiles_2022/xsessions/* /usr/share/xsessions
+
+```
 
 # NOTE
 
 ## make sure kitty , sxkhd is installed
 
 ### Reboot or mod + shift + r
+
+# Kitty theme switcher
+
+```
+
+cd && git clone https://github.com/adi1090x/kitty-cat && cd kitty-cat && ./install
+
+```
+
+# Google chromne
+
+```
+
+yay -S google-chrome
+
+```
+
+```
+
+```
