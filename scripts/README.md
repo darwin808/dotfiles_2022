@@ -36,8 +36,16 @@ sudo pacman -Sy kitty rofi firefox git unzip base-devel git vim libx11 libxft xo
 
 # Compile dwm st slstatus
 
+```
 cd && cd .config/suckless/dwm && rm config.h && make && sudo make install
+```
+
+```
 cd && cd .config/suckless/st && rm config.h && make && sudo make install
+```
+
+```
 cd && cd .config/suckless/slstatus && rm config.h && make && sudo make install
+```
 
 ### Reboot or mod + shift + r
