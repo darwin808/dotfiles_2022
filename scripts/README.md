@@ -1,14 +1,16 @@
 # Installation of dependencies
 
-## follow top to bottom
+#### follow top to bottom
 
-<!-- system update -->
+## system update first after fresh install
 
+```
 sudo pacman -Syy
 
 sudo pacman -S archlinux-keyring
 
 sudo pacman -Syyu
+```
 
 ## Install yay
 
