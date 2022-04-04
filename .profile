@@ -16,6 +16,7 @@ feh --bg-fill "$(find ~/Pictures/Wallpapers/anime/* | shuf | head -n 1)"
 #feh --bg-fill "$(find ~/Pictures/Wallpapers/anime/0066.jpg | shuf | head -n 1)"
 
 xrandr --output DP-1 --mode 1920x1080 --rate 164.92
+bash -c 'sleep 1 && xset r rate 390 40'
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
