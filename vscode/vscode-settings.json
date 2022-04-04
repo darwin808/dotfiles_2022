@@ -5,11 +5,6 @@
   "editor.glyphMargin": false,
   "editor.scrollbar.vertical": "hidden",
   "breadcrumbs.enabled": false,
-
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll": true,
-  //   "source.organizeImports": true
-  // },
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "workbench.sideBar.location": "right",
   "vim.leader": "<space>",
