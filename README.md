@@ -1,4 +1,4 @@
-# This is my dotfiles 2022
+# Dotfiles 2022
 
 ```
 wm:         dwm
