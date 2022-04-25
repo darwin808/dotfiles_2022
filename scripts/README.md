@@ -43,19 +43,20 @@ sudo cd && cp ~/dotfiles_2022/xsessions/* /usr/share/xsessions
 # Compile dwm st slstatus
 
 ```
-cd && cd .config/suckless/dwm && rm config.h && make && sudo make install
+cd && cd .config/suckless/dwm && rm config.h && make && sudo make clean install
 
-cd && cd .config/suckless/st && rm config.h && make && sudo make install
+cd && cd .config/suckless/st && rm config.h && make && sudo make clean  install
 
-cd && cd .config/suckless/slstatus && rm config.h && make && sudo make install
-
-```
-
-# Copy /fonts to /usr/shares/fonts
+cd && cd .config/suckless/slstatus && rm config.h && make && sudo make  clean install
 
 ```
 
-sudo cd && cp ~/dotfiles_2022/xsessions/* /usr/share/xsessions
+# Copy /fonts and themes to /usr/shares
+
+```
+
+sudo cd && cp -r ~/dotfiles_2022/fonts/* /usr/share/xsessions
+sudo cd && cp -r  ~/dotfiles_2022/theme/* /usr/share/themes
 
 ```
 
